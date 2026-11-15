@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Mwenje",
+    "slug": "mwenje",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "zw.mwenje.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#EBB51B",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "zw.mwenje.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 140,
+          "backgroundColor": "#2E3191"
+        }
+      ]
+    ],
+    "scheme": "mwenje",
+    "backgroundColor": "#F6F6FA",
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
